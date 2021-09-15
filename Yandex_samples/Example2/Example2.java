@@ -24,8 +24,8 @@ public class Example2 {
                 int A = Integer.parseInt(start_line.substring(0, start_line.indexOf(" ")));
                 int B = Integer.parseInt(start_line.substring(start_line.indexOf(" ")+1));
     
-                System.out.println(A+B);
-                bw.write(A+B);
+                String sum = Integer.toString(A+B);
+                bw.write(sum);
                 bw.flush();
                 bw.close();
                 br.close();
