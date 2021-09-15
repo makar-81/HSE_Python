@@ -5,12 +5,14 @@ public class Example3 {
         BufferedReader string = new BufferedReader(new InputStreamReader(System.in));
         String J = string.readLine();
         String S = string.readLine();
+        char[] temp = S.toCharArray();
         int sum = 0;
 
-        for (int i =0; i < J.length();i++) {
-              sum =   
-        }
-        
-        System.out.println(A + B);
+        for (int i =0; i < temp.length;i++) {
+            if (J.contains(Character.toString(temp[i]))) {
+                   sum ++;
+            } 
+        }  
+        System.out.println(sum);
     }
 }
