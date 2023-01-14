@@ -11,5 +11,6 @@ public class Example {
         //System.out.println(start_line.substring(space+1));
         int B = Integer.parseInt(start_line.substring(space+1));
         System.out.println(A + B);
+        
     }
 }
